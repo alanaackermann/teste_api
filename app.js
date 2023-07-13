@@ -24,4 +24,10 @@ if (require.main === module){
     console.log('API funcionando!')
 }
 
+function validarnumero(valor) 
+{
+    return !isNaN(valor)
+}
+
+module.exports ={validarnumero} 
 module.exports = app
